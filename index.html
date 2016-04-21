@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie10 lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie10 lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie10 lt-ie9"> <![endif]-->
+<!--[if IE 9]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 9]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        
+        <title>King Pong 2012 | Let the agency battle begin.</title>
+        <meta name="description" content="Forget the Addy’s – this is where heroes are made. Join the ultimate Austin ad industry Ping Pong competition on October 25.">
+        <link rel="shortcut icon" href="kingpong/img/favicon.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+        <meta property="og:type"                 content="website"> 
+        <meta property="og:url"                  content="http://kingpongaustin.com/"> 
+        <meta property="og:image"                content="http://www.springbox.com/kingpong/img/og-logo.png">
+        <meta property="og:title"                content="King Pong 2012 | Let the agency battle begin">
+        <meta property="og:description"          content="Forget the Addy’s – this is where heroes are made. Join the ultimate Austin ad industry Ping Pong competition on October 25."> 
+
+        <script type="text/javascript" src="http://use.typekit.net/zzt1njb.js"></script>
+        <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+        
+
+        <link rel="stylesheet" href="kingpong/css/styles.css">
+        <script src="kingpong/js/vendor/modernizr-2.6.1.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="kingpong/js/vendor/jquery-1.8.0.min.js"><\/script>')</script>
+        <script>
+            // Touch devices don't like the scrolling movie.
+            // And we want to give something presentable to old IE.
+            if(Modernizr.touch || !Modernizr.canvas) {
+                document.write('<link rel="stylesheet" href="kingpong/css/mobile.css">');
+                document.write('<script src="kingpong/js/mobile-plugins-ck.js"><\/script>');
+                document.write('<script src="kingpong/js/mobile-ck.js"><\/script>');
+            } else {
+                document.write('<script src="kingpong/js/plugins-ck.js"><\/script><script src="kingpong/js/vendor/spin.min.js"><\/script><script src="kingpong/js/main-ck.js"><\/script>');
+            }
+
+            // Polyfill for placeholder
+            if(!Modernizr.input.placeholder) {
+                document.write('<link rel="stylesheet" href="kingpong/css/placeholder.css"><script src="kingpong/js/vendor/jquery.placeholder.js"><\/script>');
+            }
+
+        </script>
+    </head>
+    <body>
+        <!--[if lt IE 9]>
+            <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/" target="_blank">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true" target="_blank">install Google Chrome Frame</a> to better experience this site.</p>
+        <![endif]-->
+
+        <canvas id="motion" class="motion-video"></canvas>
+
+        <article id="main" class="wrapper tk-futura-pt" role="main">
+            <div id="hider" class="opaque"></div>
+            <div id="fader" class="transparency"></div>
+            <div id="dark-fader" class="double-transparency"></div>
+
+            <header id="title" class="slide title-slide">
+                <div class="outer-container">
+                    <div class="inner-container">
+                        <h1 class="visuallyhidden">King Pong</h1>
+                        <div id="kingpong-logo" class="logo"> </div>
+                    </div>
+                </div> <!-- #outer-container -->
+
+                <div class="arrow-icon">
+                    <div id="spinner-placement" class="placement"></div>
+                </div>
+
+                <div id="down-arrow" class="arrow-icon">
+                    <div class="placement">
+                        <div class="arrow-label">Scroll</div>
+                        <div class="arrow-image"></div>
+                    </div>
+                </div> <!-- #scroll -->
+            </header> <!-- #title -->
+
+            <div class="spacer"></div>
+
+            <nav id="access" class="navigation" role="navigation">
+                <div class="outer-container">
+                    <div class="inner-container">
+                        <ul class="vertical-list">
+                            <li class="circle selected"><a href="kingpong.html#title" id="title-link" title="Title page"></a></li>
+                            <li class="vertical-slider">
+                                <div class="line"></div>
+                                <div id="scrubber"></div>
+                            </li>
+                            <!-- Possible place to look for solution: http://www.simonbattersby.com/blog/vertical-scrollbar-plugin-using-jquery-ui-slider/ -->
+                            <li class="circle"><a href="kingpong.html#event" id="event-link" title="Event information"></a></li>
+                            <li class="circle"><a href="kingpong.html#entry" id="entry-link" title="Entry form"></a></li>
+                            <li class="circle"><a href="kingpong.html#sponsors" id="sponsors-link" title="Our sponsors"></a></li>
+                        </ul> <!-- .vertical-nav -->
+                    </div> <!-- #inner-container -->
+                </div> <!-- #outer-container -->
+            </nav> <!-- #access -->
+
+            <div id="movie" class="slide movie-slide">
+
+            </div> <!-- #motion -->
+
+            <div class="spacer"></div>
+            
+            <section id="event" class="slide event-slide">
+                <div class="outer-container">
+                    <div class="inner-container">
+                        <hgroup>
+                            <h1 class="heading tk-league-gothic">Let the agency battle begin</h1>
+                            <p class="secondary">No RFP necessary. Drinks are complimentary.</p>
+                        </hgroup>
+                        <div class="inner-wrapper clearfix">
+                            <p>Forget the Addy's &mdash; this is where heroes are made. <br />Let your name go down in Ping Pong history at King Pong 2012. </p>
+                            <dl>
+                                <dt class="tk-league-gothic">When</dt>
+                                <dd>October 25, 2012 <br /> 6:30pm &ndash; 11pm</dd>
+                            </dl>
+                            <dl>
+                                <dt class="tk-league-gothic">Where</dt>
+                                <dd><address>Springbox<br /><a href="https://maps.google.com/maps/ms?msid=203893134938167971783.0004cb331bb3939d6333a&msa=0&ll=30.269367,-97.74232&spn=0.000644,0.00284" target="_blank">708 Congress Avenue<br />Austin, TX 78701</a></address></dd>
+                            </dl>
+                            <dl>
+                                <dt class="tk-league-gothic">Parking</dt>
+                                <dd><address>One American Center<br />
+<a href="https://maps.google.com/maps/ms?msid=203893134938167971783.0004cb331bb3939d6333a&msa=0&ll=30.269367,-97.74232&spn=0.000644,0.00284" target="_blank">7th St and Congress Ave<br />
+Austin, TX 78701</a></address><span style="font-size: 0.8em;">Bring your parking ticket for validation.</span>
+
+</dd>
+                            </dl>
+                        </div>
+                    </div> <!-- #inner-container -->
+                </div> <!-- #outer-container -->
+            </section> <!-- #event -->
+
+            <div class="spacer"></div>
+            
+            <section id="entry" class="slide entry-slide">
+                <div class="outer-container">
+                    <div class="inner-container">
+                        <hgroup>
+                            <h1 class="heading tk-league-gothic">Get your paddles ready</h1>
+                            <p class="secondary">Request your spot in this time-honored tradition below.</p>
+                        </hgroup>
+                        <div id="signup-form" class="form">
+                            <form method="POST">
+                                <label for="player1-name">Name:</label>
+                                <input placeholder="Name" type="text" name="player1-name" id="player1-name" class="tk-futura-pt">
+
+                                <label for="player1-email">Email:</label>
+                                <input placeholder="Email" type="email" name="player1-email" id="player1-email" class="tk-futura-pt">
+                                
+                                <label for="player1-agency">Agency:</label>
+                                <input placeholder="Agency" type="text" name="player1-agency" id="player1-agency" class="tk-futura-pt">
+
+                                <label for="player-toggle">Team:</label>
+                                <select id="player-toggle" name="player-toggle" class="toggle">
+                                    <option value="singles" selected="selected">Singles</option>
+                                    <option value="doubles">Doubles</option>
+                                </select>
+
+                                <div id="doubles-partner">
+                                    <label for="player2-name">Partner's Name:</label>
+                                    <input placeholder="Partner's Name" type="text" name="player2-name" id="player2-name" class="tk-futura-pt">
+                                    <label for="player2-email">Partner's Email:</label>
+                                    <input placeholder="Partner's Email" type="email" name="player2-email" id="player2-email" class="tk-futura-pt">
+                                </div>
+                                
+                                <input type="submit" value="Submit" class="submit tk-futura-pt">
+                            </form>
+                        </div>
+                        <div id="submitted">
+                            <hgroup>
+                                <h3 class="heading tk-league-gothic">Thank you.</h3>
+                                <p class="secondary">You are on the reserve list.</p>
+                            </hgroup>
+                            <p style="text-align: center;">We’ll be in touch shortly with an update on your battle rank. In the meantime, prepare for combat with us on <a href="https://www.facebook.com/kingpongaustin">Facebook</a> and <a href="http://www.twitter.com/kingpongaustin">Twitter</a>.</p>
+                        </div>
+                        <p style="text-align: center;" class="rsvp">Rather watch? RSVP <a href="http://www.facebook.com/events/103051559849739/" target="_blank">here</a>.</p>
+                    </div> <!-- #inner-container -->
+                </div> <!-- #outer-container -->
+            </section> <!-- #entry -->
+
+            <div class="spacer"></div>
+            
+            <footer id="sponsors" class="slide sponsors-slide" role="colophon">
+                <div class="outer-container">
+                    <div class="inner-container">
+                        <hgroup>
+                            <h1 class="sponsors-header secondary tk-league-gothic">Sponsored by</h1>
+                        </hgroup>
+
+                        <!-- sponsors -->
+                        <div class="inner-wrapper">
+                            <ul class="sponsor-list">
+                                <li class="sprite-springbox"><a href="http://www.springbox.com" title="Springbox" target="_blank"></a></li>
+                                <li class="sprite-nfusion"><a href="http://www.nfusion.com" title="nFUSION" target="_blank"></a></li>
+                                <li class="sprite-t3"><a href="http://www.t-3.com" title="T3" target="_blank"></a></li>
+                                <li class="sprite-razorfish"><a href="http://www.razorfish.com" title="razorfish" target="_blank"></a></li>
+                                <li class="sprite-mason"><a href="http://www.mzl.com" title="Mason Zimbler" target="_blank"></a></li>
+                                <li class="sprite-mcj"><a href="http://www.mc-j.com" title="McGarrah Jessee" target="_blank"></a></li>
+                                <li class="sprite-gsdm"><a href="http://www.gsdm.com" title="GSD&amp;M" target="_blank"></a></li>
+                                <li class="sprite-uberpong"><a href="http://www.uberpong.com" title="Uberpong" target="_blank"></a></li>
+                            </ul>
+
+                            <div class="box">
+                                <dl>
+                                    <dt class="tk-league-gothic">Founded By</dt>
+                                    <dd>
+                                        <a href="http://www.adjohn.com" target="_blank">John Livingston</a><br />
+                                        <a href="http://www.justinwetz.com" target="_blank">Justin Wetz</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt class="tk-league-gothic">Hosted By</dt>
+                                    <dd>
+                                        <a href="http://www.101x.com/morningx/index.aspx" title="Jason &amp; Deb on 101x" target="_blank">Jason Dick</a><br />
+                                        of 101X FM
+                                    </dd>
+                                </dl>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                    </div> <!-- #inner-container -->
+                </div> <!-- #outer-container -->
+            </footer> <!-- #sponsors -->
+
+            <aside id="social" class="social-icons">
+                <ul class="vertical-list">
+                    <li><a href="http://www.facebook.com/kingpongaustin" title="Get tournament updates on Facebook!" id="facebook" class="sprite-facebook" target="_blank"><span class="sprite-facebook-blue"></span></a></li>
+                    <li><a href="http://www.twitter.com/kingpongaustin" title="Get tournament updates on Twitter!" id="twitter" class="sprite-twitter" target="_blank"><span class="sprite-twitter-blue"></span></a></li>
+                </ul> <!-- .icon-list -->
+            </aside> <!-- #social-icons -->
+        </article> <!-- #main -->
+
+        <script>
+            // Hide our doubles input, hopefully after IE loads in polyfill for placeholder
+            $(function() { $("#doubles-partner").hide(); });
+        </script>
+        <!-- Remove for comment tags for Production <script>
+         
+          var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', 'UA-768164-7']);
+          _gaq.push(['_trackPageview']);
+         
+          (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+          })();
+         
+        </script>-->
+    </body>
+</html>
